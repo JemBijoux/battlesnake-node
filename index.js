@@ -61,5 +61,5 @@ app.use(function (err, req, res, next) {
 });
 
 var server = app.listen(app.get('port'), function () {
-  console.log('Server listening at http://%s:%s', config.host, app.get('port'));
+  console.log('Server is now listening at http://%s:%s', config.host, app.get('port'));
 });
